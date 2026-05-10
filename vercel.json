@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/rest/:path*", "destination": "https://uawnflwupyxedcvhqiyz.supabase.co/rest/:path*" },
-    { "source": "/auth/:path*", "destination": "https://uawnflwupyxedcvhqiyz.supabase.co/auth/:path*" }
+    { "source": "/rest/(.*)", "destination": "https://uawnflwupyxedcvhqiyz.supabase.co/rest/$1" },
+    { "source": "/auth/(.*)", "destination": "https://uawnflwupyxedcvhqiyz.supabase.co/auth/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
