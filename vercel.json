@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/rest/:path*", "destination": "https://YOUR-PROJECT.supabase.co/rest/:path*" },
-    { "source": "/auth/:path*", "destination": "https://YOUR-PROJECT.supabase.co/auth/:path*" }
+    { "source": "/rest/:path*", "destination": "https://uawnflwupyxedcvhqiyz.supabase.co/rest/:path*" },
+    { "source": "/auth/:path*", "destination": "https://uawnflwupyxedcvhqiyz.supabase.co/auth/:path*" }
   ]
 }
